@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Booking History</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex h-screen">
+    <div class="w-1/5 bg-gray-200 py-6 px-4">
+      <h2 class="text-lg font-bold mb-4">Sidebar</h2>
+    </div>
+    <div class="flex-1 p-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold text-left">Tour Booking History</h2>
+
+        <table class="table-auto w-full mt-4">
+          <thead>
+            <tr class="border-b border-gray-200">
+              <th class="px-4 py-2 text-left">Tour</th>
+
+              <th class="px-4 py-2 text-left">Booking ID</th>
+
+              <th class="px-4 py-2 text-left">Amount</th>
+
+              <th class="px-4 py-2 text-left">Book Date</th>
+
+              <th class="px-4 py-2 text-left">Status</th>
+
+              <th class="px-4 py-2 text-left">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-200">
+              <td class="px-4 py-2">
+                <div class="flex items-center">
+                  <div>
+                    <img
+                      src="../assets/images/kohsamuiImg.jpeg"
+                      alt="Tour Image"
+                      class="w-40 h-24 object-cover rounded-lg"
+                    />
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-md font-medium">Koh Samui Trip</h5>
+                    <p class="text-sm">From 2024-04-01 to 2024-04-07</p>
+                    <p class="text-sm">3 Adults | 1 Child</p>
+                  </div>
+                </div>
+              </td>
+              <td class="px-4 py-2">#12345</td>
+              <td class="px-4 py-2">$1000.00</td>
+              <td class="px-4 py-2">15-3-2024</td>
+              <td class="px-4 py-2">
+                <button class="bg-green-500 text-white py-1 px-2 rounded">
+                  Completed
+                </button>
+              </td>
+              <td class="px-4 py-2">
+                <button
+                  class="border border-gray-200 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded w-[10px] h-[10px]"
+                >
+                  <img
+                    src="../assets/images/icons8-edit-64.png"
+                    width="25px"
+                    height="25px"
+                    alt="Edit"
+                  />
+                </button>
+                <button
+                  class="border border-gray-200 hover:bg-red-700 text-white font-bold py-1 px-2 rounded ml-2"
+                >
+                  <img
+                    src="../assets/images/icons8-delete-30.png"
+                    width="25px"
+                    height="25px"
+                    alt="Delete"
+                  />
+                </button>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="px-4 py-2">
+                <div class="flex items-center">
+                  <div>
+                    <img
+                      src="../assets/images/kohsamuiImg.jpeg"
+                      alt="Tour Image"
+                      class="w-40 h-24 object-cover rounded-lg"
+                    />
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-md font-medium">Koh Samui Trip</h5>
+                    <p class="text-sm">From 2024-04-01 to 2024-04-07</p>
+                    <p class="text-sm">3 Adults | 1 Child</p>
+                  </div>
+                </div>
+              </td>
+              <td class="px-4 py-2">#12345</td>
+              <td class="px-4 py-2">$1000.00</td>
+              <td class="px-4 py-2">15-3-2024</td>
+              <td class="px-4 py-2">
+                <button class="bg-red-500 text-white py-1 px-2 rounded">
+                  Cancelled
+                </button>
+              </td>
+              <td class="px-4 py-2">
+                <button
+                  class="border border-gray-200 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded w-[10px] h-[10px]"
+                >
+                  <img
+                    src="../assets/images/icons8-edit-64.png"
+                    width="25px"
+                    height="25px"
+                    alt="Edit"
+                  />
+                </button>
+                <button
+                  class="border border-gray-200 hover:bg-red-700 text-white font-bold py-1 px-2 rounded ml-2"
+                >
+                  <img
+                    src="../assets/images/icons8-delete-30.png"
+                    width="25px"
+                    height="25px"
+                    alt="Delete"
+                  />
+                </button>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="px-4 py-2">
+                <div class="flex items-center">
+                  <div>
+                    <img
+                      src="../assets/images/kohsamuiImg.jpeg"
+                      alt="Tour Image"
+                      class="w-40 h-24 object-cover rounded-lg"
+                    />
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-md font-medium">Koh Samui Trip</h5>
+                    <p class="text-sm">From 2024-04-01 to 2024-04-07</p>
+                    <p class="text-sm">3 Adults | 1 Child</p>
+                  </div>
+                </div>
+              </td>
+              <td class="px-4 py-2">#12345</td>
+              <td class="px-4 py-2">$1000.00</td>
+              <td class="px-4 py-2">15-3-2024</td>
+              <td class="px-4 py-2">
+                <button class="bg-blue-500 text-white py-1 px-2 rounded">
+                  Processing
+                </button>
+              </td>
+              <td class="px-4 py-2">
+                <button
+                  class="border border-gray-200 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded w-[10px] h-[10px]"
+                >
+                  <img
+                    src="../assets/images/icons8-edit-64.png"
+                    width="25px"
+                    height="25px"
+                    alt="Edit"
+                  />
+                </button>
+                <button
+                  class="border border-gray-200 hover:bg-red-700 text-white font-bold py-1 px-2 rounded ml-2"
+                >
+                  <img
+                    src="../assets/images/icons8-delete-30.png"
+                    width="25px"
+                    height="25px"
+                    alt="Delete"
+                  />
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Package</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="p-10">
+    <h1 class="text-4xl mb-5 font-medium">
+      Paris and famous places of the world capital
+    </h1>
+    <div class="flex flex-row gap-4 items-center justify-center">
+      <div>
+        <img
+          src="../assets/images/paris1.jpeg"
+          width="800px"
+          class="rounded-lg"
+        />
+      </div>
+      <div>
+        <img
+          src="../assets/images/paris2.jpeg"
+          width="750px"
+          class="rounded-lg"
+        />
+      </div>
+    </div>
+    <div class="flex flex-row justify-between mt-10">
+      <div class="w-3/4 pr-10">
+        <table>
+          <tr>
+            <td class="pr-32">
+              <span class="text-gray-500">ID Tour: </span>#12345
+            </td>
+            <td class="pr-32">
+              <span class="text-gray-500">Start:</span> Effel Tower
+            </td>
+            <td class="pr-32">
+              <span class="text-gray-500">End:</span> Moulin Rouge
+            </td>
+            <td><span class="text-gray-500">Type tour:</span> Group tour</td>
+          </tr>
+          <tr>
+            <td><span class="text-gray-500">Age range:</span> 10 - 17 ages</td>
+            <td><span class="text-gray-500">Language:</span> English</td>
+            <td><span class="text-gray-500">Free Cancellation:</span> Yes</td>
+            <td><span class="text-gray-500">Payments:</span> Pay later</td>
+          </tr>
+        </table>
+        <div class="border-t-2 pt-10 mt-10">
+          <h1 class="text-3xl pb-4 font-medium">Highlight</h1>
+          <ul class="list-disc pl-10">
+            <li>Savor French wine on a tasting at Les Caves du louvre</li>
+            <li>Savor French wine on a tasting at Les Caves du louvre</li>
+            <li>Savor French wine on a tasting at Les Caves du louvre</li>
+            <li>Savor French wine on a tasting at Les Caves du louvre</li>
+            <li>Savor French wine on a tasting at Les Caves du louvre</li>
+          </ul>
+
+          <div class="border-t-2 mt-10 pt-10">
+            <h1 class="text-3xl font-medium pb-4">Description</h1>
+            <p>
+              Visit the best Paris has to offer with Go City and save time and
+              money compared to buying separate admissions to attractions and
+              tours. Choose between a 2 or 3-day Paris All-Inclusive Pass,
+              browse the included activities, place reservations where needed,
+              and on the day of your visit simply show your pass on your mobile
+              device for entry. It's that simple!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="border rounded-lg w-1/4">
+        <form class="p-4">
+          <div class="row">
+            <div class="">
+              <div class="mb-4">
+                <div class="">
+                  <small>From:</small>
+                  <del class=""><sup>$</sup>250.50</del>
+                  <span class="bg-red-500 rounded p-1 text-white ml-2"
+                    >-30%</span
+                  >
+                </div>
+                <div class="">
+                  <span class="text-3xl font-medium"><sup>$</sup>230.50</span>
+                  <span class="">/person</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-2">
+              <label class=""></label>
+              <input
+                type="text"
+                class="border p-1 pl-3 rounded-lg w-full h-10 shadow"
+                placeholder="Departure Date"
+                id="txtCheckDate"
+                data-input
+                readonly="readonly"
+              />
+            </div>
+
+            <div class="mt-4 mb-4">
+              <select class="p-1 border w-full rounded-lg h-10 shadow">
+                <option>Package 1</option>
+                <option>Package 2</option>
+                <option>Package 3</option>
+                <option>Package 4</option>
+              </select>
+            </div>
+
+            <div class="mt-4">
+              <button class="p-1 w-full rounded bg-blue-500 text-white h-9">
+                Check Availability
+              </button>
+            </div>
+            <div class="mt-2">
+              <p class="">
+                <a href="#" class="text-blue-500">Reserve now and pay later</a>
+                to book your spot and pay nothing today
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
